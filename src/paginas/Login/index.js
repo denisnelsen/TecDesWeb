@@ -21,7 +21,7 @@ class Login extends Component {
       this.props.history.push("/principal");
     } catch (error) {
       console.error("Erro ao autenticar usuário:", error);
-      alert("Erro: " + error.message);
+      alert("Usuário não cadastrado");
     }
   }
 
