@@ -64,7 +64,7 @@ class Principal extends Component {
         <p>Data de nascimento: {userData.dataNascimento}</p>
 
         <div>
-          <a href="#" onClick={this.sair}>Sair</a>
+          <button onClick={this.sair}>Sair</button>
         </div>
       </div>
     );
